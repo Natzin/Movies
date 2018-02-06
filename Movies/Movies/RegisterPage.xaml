@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Movies.RegisterPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Entry
+                    x:Name="enName"
+                    Keyboard="Text"
+                    Placeholder="Nombre:"/>
+                <Entry
+                    x:Name="enUser"
+                    Keyboard="Text"
+                    Placeholder="Nombre de usuario"/>
+                <Entry
+                    x:Name="enTelphone"
+                    Keyboard="Numeric"
+                    Placeholder="Teléfono:"/>
+                <Entry
+                    x:Name="enMail"
+                    Keyboard="Email"
+                    Placeholder="Mail:"/>
+                <Entry
+                    x:Name="enPass"
+                    Keyboard="Text"
+                    IsPassword="True"
+                    Placeholder="Password:"/>
+                <Entry
+                    x:Name="enConfirm"
+                    Keyboard="Text"
+                    IsPassword="True"
+                    Placeholder="Confirmar password:"/>
+                <Button
+                    x:Name="btnRegister"
+                    Text="Registrar"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

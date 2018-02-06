@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Movies.LoginPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry
+                x:Name="enUser"
+                Placeholder="User: "
+                Keyboard="Default"
+                VerticalOptions="CenterAndExpand"/>
+            <Entry
+                x:Name="enPass"
+                Placeholder="Password: "
+                IsPassword="True"
+                Keyboard="Default"
+                VerticalOptions="Center"/>
+            <Button
+                x:Name="btnLogin"
+                Text="Login"
+                TextColor="White"
+                BackgroundColor="#2196f7"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"/>
+            <Button
+                x:Name="btnRegister"
+                Text="Register"
+                TextColor="White"
+                BackgroundColor="#2196f7"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
